@@ -10,19 +10,17 @@ import {
 export const useMovies = ({ search, sort }: useMoviesProp): UseMoviesResult => {
 	const [movies, setMovies] = useState<Movie[] | null>([]);
 	const [loading, setLoading] = useState(false);
-	const [error, setError] = useState(null);
 	const previousSearch = useRef(search);
 
 	const getMovies = useCallback(async ({ search }: searchProp) => {
 		if (search === previousSearch.current) return;
 		try {
 			setLoading(true);
-			setError(null);
 			previousSearch.current = search;
 			const newMovies = await searchMovies({ search });
 			setMovies(newMovies);
 		} catch (e: any) {
-			setError(e.message);
+			console.log(e);
 		} finally {
 			setLoading(false);
 		}
