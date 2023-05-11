@@ -4,7 +4,7 @@ import {
 	moviesProp,
 } from '../interfaces/search-engine';
 
-const OMDBAPI_URL = 'http://www.omdbapi.com/?apikey=1524725e&s=';
+const OMDBAPI_URL = 'https://www.omdbapi.com/?apikey=1524725e&s=';
 
 export const searchMovies = async ({
 	search,
