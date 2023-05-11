@@ -1,7 +1,7 @@
 # Movie Search Engine App
-It's a simple project with search engine in React using Hooks, interfaces. tuples, services, and just-debounce-it.
+It's a simple project with search engine in React using Hooks, interfaces. tuples, "omdbapi" services and just-debounce-it.
 
-Es un simple proyecto con motor de búsqueda simple en React usando Hooks, interfaces. tuplas, servicios y just-debounce-it.
+Es un simple proyecto con motor de búsqueda simple en React usando Hooks, interfaces. tuplas, servicios de "omdbapi" y just-debounce-it.
 
 URL Netlify Page ->
 [Click here]()
