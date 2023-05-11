@@ -8,4 +8,4 @@ URL Netlify Page ->
 
 ---
 
-![Movie Search Engine App](![imagen](https://github.com/D-landJS/movie-search-engine-react/assets/55060895/224ef377-3165-429b-be7b-21d8cec40c55))
+![Movie Search Engine App](https://github.com/D-landJS/movie-search-engine-react/assets/55060895/224ef377-3165-429b-be7b-21d8cec40c55)
